@@ -1,0 +1,31 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Autocomplete</title>
+<link rel="Stylesheet" type="text/css"  href="css/autocomplete.css" />
+</head>
+
+<body> 
+    <a id="js_input_city"></a>
+    
+    
+<script type="text/javascript" src="js/module.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/source.js"></script> 
+<script type="text/javascript" src="js/autocomplete.js"></script>
+<script type="text/javascript">
+
+    var cnt = new AN_APP.Autocomplete({ selector: "#js_input_city",
+        source: AN_APP.source,
+        num: 7
+    }
+);
+    cnt.init();
+   
+
+
+</script>
+</body>
+</html>
